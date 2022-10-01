@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+  
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  header {
+    background-color: #ff4136;
+
+    width: 100vw;
+    height: 8vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: static;
+    top: 0;
+    z-index: 2;
+  }
+
+  header nav {
+    width: 90vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header nav .logo-b2food {
+    width: 3rem;
+  }
+
+  header nav .menu-open svg {
+    color: #fff;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3.5rem;
+    margin: 5rem 0;
+  }
+
+  .home {
+    width: 90%;
+  }
+
+  .img-entregador {
+    width: 85vw;
+    margin-top: 1rem;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .img-after {
+    width: 85vw;
+    height: 22.5rem;
+    border-radius: 5px;
+    z-index: 0;
+    position: absolute;
+    top: 20.25rem;
+    left: 2.5rem;
+    background-color: #ff4036;
+  }
+
+  .link-indique {
+    background-color: #ff4036;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 8rem 0 0 0;
+    padding: 1rem;
+    text-decoration: none;
+  }
+    
+  .divisor-1 {
+    width: 100%;
+    height: 1px;
+    background-image: linear-gradient(to right, #ff4036, #ffffff00);
+    margin: 4rem 0;
+  }
+
+  .divisor-2 {
+    width: 100%;
+    height: 1px;
+    background-image: linear-gradient(to right, #ffffff00, #ff4036);
+    margin: 4rem 0;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-text {
+    width: 100%;
+  }
+
+  .container-text h2 {
+    font-size: 3rem;
+    text-align: left;
+  }
+
+  .container-contents {
+    margin: 2rem 0;
+  }
+
+  .slide-clients {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .clients {
+    width: 40%;
+  }
+
+  .video iframe {
+    width: 80vw;
+    height: 16rem;
+    
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .games {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 30rem;
+    gap: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .games-itens {
+    width: 9rem;
+    height: 9rem;
+    background-color: #ff4036;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .games-itens svg {
+    color: #fff;
+    width: 4rem;
+    height: 4rem;
+  }
